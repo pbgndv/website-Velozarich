@@ -1,0 +1,47 @@
+.header {    
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_container {    
+    width: 85%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container_navbar > ul {
+    gap: 70px;
+    display: flex;
+}
+
+.header_container_navbar > ul > li {
+    padding: 15px 10px;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active-li{
+    border-bottom: 1.5px solid #000;
+}
+
+
+.header_container_button {
+    width: 150px;
+    height: 50px;
+
+    background: #F9B640;
+    border-radius: 50px;
+
+    color: #fff;
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

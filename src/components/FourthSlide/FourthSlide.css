@@ -1,0 +1,49 @@
+.fourth-slide {
+    width: 100%;
+    height: 480px;
+
+
+    display: flex;
+}
+
+.first-box , .second-box , .third-box {
+    width: 33.4%;
+    height: 480px;
+    gap: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-box {
+    background: #22356F;
+}
+
+.second-box {
+    background: #0052C1;
+}
+
+.third-box {
+    background: #76B58B;
+}
+
+.line {
+    width: 340px;
+    height: 1px;
+    margin-top: 100px;
+
+    background: #fff;
+}
+
+.first-box > p, .second-box > p, .third-box > p {
+    width: 340px;
+
+    font-size: 30px;
+    font-style: italic;
+
+    color: #fff;
+
+    display: flex;
+    justify-content: start;
+}
